@@ -14,6 +14,6 @@ while sol ~= my_value
 end
 
 if sol == my_value
-    fprintf('Congratulations, you guessed the number: %d! %n', my_value)
+    fprintf('Congratulations, you guessed the number: %d! \n', my_value)
     fprintf('Number of tries: %d', num_tries)
 end
